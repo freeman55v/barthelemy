@@ -164,6 +164,18 @@ footer {
     max-width: 100%;
     height: auto;
 }
+/* État initial : caché */
+.nav-links {
+    display: none;
+    position: absolute;
+    width: 100%;
+    /* tes autres styles... */
+}
+
+/* État quand on clique sur les trois traits */
+.nav-links.active {
+    display: block;
+}
 
 /* Ajouter une transition fluide pour l'apparence du menu */
 nav.active .hamburger {
