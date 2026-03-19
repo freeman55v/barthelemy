@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miel d'Or</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page d'accueil avec le message de bienvenue -->
+    <section class="home">
+        <div class="home-content">
+            <h1>Bienvenue chez Miel d'Or</h1>
+            <p>Du nectar pur des fleurs sur votre table.</p>
+            <a href="#a-propos" class="btn">Découvrez notre histoire</a>
+        </div>
+    </section>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <div class="logo">
+            <h1>Miel d'Or</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#origine">Origine</a></li>
+            <li><a href="#produits">Nos Produits</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Menu Hamburger pour mobile -->
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+    </nav>
+
+    <!-- Sections du site -->
+    <section id="a-propos" class="intro">
+        <h2>À propos de Miel d'Or</h2>
+        <p>Notre vision est de devenir une marque reconnue dans le secteur du miel au niveau national et sous-régional. Nous proposons un miel pur accessible aux consommateurs, tout en contribuant au développement de l’apiculture locale.</p>
+    </section>
+
+    <section id="origine" class="origine">
+        <h2>Origine</h2>
+        <p>Le miel d'Or provient des fleurs et des forêts de la région, récolté avec soin par des apiculteurs locaux engagés dans une agriculture biologique respectueuse de l'environnement.</p>
+    </section>
+
+    <section id="produits" class="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <h3>Miel Pur</h3>
+            <img src="miel1.jpg" alt="Miel pur">
+            <img src="./MIEL2.jpg" alt="">
+            <p><strong>Origine :</strong> Miel des fleurs et de forêt</p>
+            <ul>
+                <li>350ml = 2000f</li>
+                <li>0,5 litre = 2500f</li>
+                <li>1 litre = 4500f</li>
+            </ul>
+            <p>Mode de production : Agriculture biologique</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute commande ou information, contactez-nous :</p>
+        <ul>
+            <li><a href="tel:+22898385510">Téléphone : +228 98 38 55 10</a></li>
+            <li><a href="mailto:ntchabarthelemytaboudia@gmail.com">Email : ntchabarthelemytaboudia@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Miel d'Or. Tous droits réservés. - Localisation : Kara, Togo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
